@@ -31,3 +31,50 @@ print(age)
 print(name)
 print(height)
 
+# ------------------------------------------------------
+# 2. Multiple Variable Assignment
+# ------------------------------------------------------
+
+# Python allows assigning multiple variables in one line
+
+x,y,z=1,2,3
+
+print(x)
+print(y)
+print(z)
+
+# ------------------------------------------------------
+# 3. Assign Same Value to Multiple Variables
+# ------------------------------------------------------
+
+a=b=c=100
+
+print(a)
+print(b)
+print(c)
+
+# ------------------------------------------------------
+# 4. Variable Naming Rules
+# ------------------------------------------------------
+
+"""
+Rules for naming variables in Python:
+
+1. Variable names must start with a letter or underscore (_)
+2. Variable names cannot start with a number
+3. Variable names can contain letters, numbers, and underscores
+4. Variable names are case-sensitive
+
+Valid examples:
+user_name
+_user
+age1
+
+Invalid examples:
+1age
+user-name
+"""
+
+user_name = "Yasin"
+_user = "Developer"
+age1 = 26
