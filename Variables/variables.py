@@ -78,3 +78,65 @@ user-name
 user_name = "Yasin"
 _user = "Developer"
 age1 = 26
+
+# ------------------------------------------------------
+# 5. Case Sensitivity
+# ------------------------------------------------------
+
+"""
+Python variables are case-sensitive.
+That means these are different variables:
+"""
+
+name = "Yasin"
+Name = "Palash"
+
+print(name)
+print(Name)
+
+# ------------------------------------------------------
+# 6. Checking Variable Type
+# ------------------------------------------------------
+
+"""
+Python provides the type() function to check the data type
+stored in a variable.
+"""
+
+age = 25
+price = 19.99
+language = "Python"
+
+print(type(age))        # int
+print(type(price))      # float
+print(type(language))   # str
+
+
+# ------------------------------------------------------
+# 7. Updating Variables
+# ------------------------------------------------------
+
+"""
+Variables can be updated or reassigned anytime.
+"""
+
+score = 50
+print(score)
+
+score = 90
+print(score)
+
+
+# ------------------------------------------------------
+# 8. Deleting Variables
+# ------------------------------------------------------
+
+"""
+Python allows deleting variables using the 'del' keyword.
+"""
+
+temp_value=100
+print(temp_value)
+
+del  temp_value
+# print(temp_value)  # This would cause an error
