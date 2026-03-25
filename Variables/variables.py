@@ -140,3 +140,24 @@ print(temp_value)
 
 del  temp_value
 # print(temp_value)  # This would cause an error
+
+# ------------------------------------------------------
+# 8. Type Casting a Variable
+# ------------------------------------------------------
+
+"""Type casting is the process of converting a variable from one data type to another.
+"""
+s = "10"  
+n = int(s)
+
+cnt = 5
+f = float(cnt) 
+
+age = 25
+s2 = str(age)  
+
+print(n)  
+print(f)  
+print(s2)
+
+
